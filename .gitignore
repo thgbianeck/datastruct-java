@@ -1,0 +1,73 @@
+# Sistema
+.DS_Store
+*.log
+*.tmp
+
+# Pastas e arquivos de build
+/build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependências do Gradle
+.gradle/
+build/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+*.gradle
+*.gradle.kts
+!gradle/wrapper/gradle-wrapper.properties
+
+# Arquivos de configuração específicos do Gradle
+gradle-local.properties
+
+# IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse
+.settings/
+*.classpath
+*.project
+
+# Arquivos temporários e de configuração do sistema
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+
+# Python (se houver)
+*.pyc
+__pycache__/
+
+# Node.js (se houver)
+node_modules/
+npm-debug.log
+
+# Arquivos do Maven (se houver)
+.mvn/
+target/
+
+# Arquivos de configuração do sistema
+*.log
+*.tmp
+
+# Outros
+configs/
+*.orig
+*.sublime-project
+*.sublime-workspace
+*.vscode/
